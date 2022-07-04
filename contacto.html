@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/stylec.css">
+</head>
+<body>
+    <header>
+        <div><img src="/images/logo fondo negro apaisado.bmp" alt="logo" class="img-fluid"></div>
+    </header>
+    <nav>
+        
+    </nav>    
+    <section>
+        <main>
+            <div>
+            <h1>Formulario de Contacto</h1>
+            </div>
+        </main>
+                
+        <div class="container-fluid">
+            <form action="#" method="POST">
+    
+                <div>
+                    <label for="nombre" name="nombre"   placeholder="Nombre/s y Apellido/s">Nombre/s</label>
+                    <input type="text" name="nombre" id="nombre" required>
+            
+                </div><br>
+                <div>
+                    <label for="apellido" name="apellido"   placeholder="Apellido/s">Apellido/s</label>
+                    <input type="text" name="apellido"id="apellido">
+                </div>  <br> 
+                <div>
+                    <label for="clave">Contraseña</label>
+                    <input type="password" name="password" id="clave" placeholder="Contraseña">
+                </div><br>
+                <div class="row">
+                    <div class="col-12">
+                        <input type="radio" name="educacion" id="nada" value="nada">
+                        <label for="">Sin Estudios</label>
+                        
+                    </div>
+                    <div class="col-12">
+                        <input type="radio" name="educacion" id="primario" value="primario">
+                        <label for="">Primario Completo</label>
+                        
+                    </div>
+                    <div class="col-12">
+                        <input type="radio" name="educacion" id="secundario" value="secundario">
+                        <label for="">Secundario Completo</label>
+                        
+                    </div>
+                    <div class="col-12">
+                        <input type="radio" name="educacion" id="universitario" value="universitario">
+                        <label for="">Universitario Completo</label>
+                        
+                    </div>
+                    
+                </div><br>
+                <!-- div>label{En que pais vives?}+select>option*5 -->
+                <div class="col-12">
+                    <label for="pais">En que pais vive</label>
+                    <select name="pais" id="pais">
+                        <option value="argentina">Argentina</option>
+                        <option value="bolivia">Bolivia</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="ecuador">Ecuador</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label for="info"></label>Recibir novedades mensualmente
+                    <input type="checkbox" name="info" id="info" checked>
+                </div>
+                <div class="col-12">
+
+                    <input type="submit" value="Enviar">
+                </div>
+    
+            </form>
+
+        </div>
+
+       
+
+        <!-- div>label+input:t -->
+        <!-- div>(input:radio+label)*4 -->
+
+    </section>
+
+    <aside>
+
+    </aside>
+
+    <footer>
+
+    </footer>
+
+
+</body>
+</html>
