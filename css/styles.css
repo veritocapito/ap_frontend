@@ -14,57 +14,64 @@
 .logo{
   width: 6rem;
   color: rgb(241, 68, 6);
+  font-size: medium;
 }
 .logo:hover{
   cursor: pointer;
   color: white ;
 }
 
-span{
-  font-size: 1rem;
-}
-
-.btn-main{
-  background-color: orangered;
-  color:ffff;
-  padding: 0.5rem 1rem;
-  margin: 1rem;
-  text-align: center;
-  border-radius: 1.2rem;
-  border: none;
-  box-shadow: 0 0 5px #000004;
-}
-
-.btn-main:hover{
-  background-color: white;
+.redes a{
+  text-decoration: none;
+  margin-right: 1rem;
   color:orangered ;
 }
 
+.card-title a:hover{
+  color:orangered ;
+  text-decoration: none;
+}
+
+.btn-main {
+  color:orangered;
+  margin-right: 2rem;
+  text-align: center;
+  border: none;
+
+}
+
+.btn-main:hover, .redes a:hover {
+  color: white;
+
+}
+
 .bi{
-  margin: 0.5rem;
+  margin: 0.5rem 1rem;
   font-size: 1.5rem;
 }
 
-.bi:hover{
+.bi:hover {
   cursor: pointer;
   color: white ;
+
 }
 
 .sec-about{
   display: flex;
   width: 100%;
-  padding: 5rem;
+  padding: 10rem;
+  background-image: url(../img/bg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h1 {
-  
-}
 
 
 .sec-education{
   display: flex;
   width: 100%;
-  padding: 5rem;
+  padding: 2rem;
   
 }
 
@@ -75,34 +82,23 @@ h1 {
 #carouselExampleDark{
   height: 25vw;
 }
-justify-content: center;
-align-items: center;
 
-footer{
-  width: 100%;
-  font-size: smaller;
-  text-align: center;
-  padding-top: 5rem;
-
-}
-
-/*
-
-.header-item{
-  padding: 2rem;
-  cursor: pointer;
-  border-radius: 10px;
+.card-title a {
+  color: #000004;
   text-decoration: none;
-  color: wheat;
-  background-color: firebrick
+
 }
 
-.header-item:hover{
-  transition: 0,3 linear background-color;
-  background-color: black;
+.card-title a:hover{
+  color:orangered ;
   text-decoration: none;
 }
 
+footer .col-md{
+  color: white;
+  font-size: x-small;
+
+}
 
 
 @media screen and (max-width:600px){
