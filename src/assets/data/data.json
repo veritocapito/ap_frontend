@@ -1,0 +1,131 @@
+{
+    "name": "Veronica Solange ",
+    "lastName": "Capobianco",
+    "image": "../assets/img/perfil.jpg",
+    "age": 42,
+    "about": "Apasionada por el desarrollo web. Proactiva, detallista, comprometida, autodidacta. Profesional con amplia experiencia gestionando de equipos de trabajo, con marcada orientacion al servicio al cliente y a la búsqueda de soluciones.",
+    "role": "FrontEnd Developer",
+    "ubication": "Buenos Aires (Argentina)",
+    "education":[
+        {
+            "id": "1",
+            "name": "Argentina Programa",
+            "image": "../assets/img/aplogo.png",
+            "url": "https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa",
+            "description": "Front End estático y dinámico. HTML, CSS, y Javascript. Framework Angular. Bases de datos. Programación Orientada a Objetos (POO). Backend - Java EE. JSP, Servlets, Sockets y conexión con base de datos. Spring boot. Dev Ops.",
+            "degree": "Título obtenido: cursando actualmente."
+        },
+        {
+            "id": "2",
+            "name": "Codo a Codo BA",
+            "image": "../assets/img/codoacodo.png",
+            "url": "https://www.buenosaires.gob.ar/educacion/codocodo/el-programa",
+            "description": "HTML y CSS. Maquetación. Animaciones y transformaciones. GIT. Bootstrap. Javascript. Vue.js. Servidores y base de datos. Python y POO. Django.",
+            "degree": "Título obtenido: Desarrollador FullStack Python."
+        },
+        {
+            "id": "3",
+            "name": "Centro de e-Learning UTN FRBA",
+            "image": "../assets/img/utn.jpg",
+            "url": "https://sceu.frba.utn.edu.ar/e-learning/",
+            "description": "Puesta en marcha y prueba de un proyecto full stack. Base de datos relacional. Desarrollo en NodeJs. Conceptos de asincronismos, funciones arrow y funciones anónimas. Desarrollo con HTML, CSS y JavaScript.",
+            "degree": "Título obtenido: FullStack Developer."
+        },
+        {
+            "id": "4",
+            "name": "Open BootCamp",
+            "image": "../assets/img/ob.jpg",
+            "url": "https://open-bootcamp.com/",
+            "description": "Hoja de ruta de 0 a desarrollador. Conceptos de la programación. Introducción a la programación. Java Básico. Python. HTML y CSS. JavaScript Básico. ReactJS. Springboot.",
+            "degree": "Título obtenido: cursando actualmente."
+        },
+        {
+            "id": "5",
+            "name": "Universidad de Flores",
+            "image": "../assets/img/uflo.webp",
+            "url": "https://www.uflo.edu.ar",
+            "description": "Carrera de grado universitario. Facultad de Administracion. Profesional con una sólida formación en economía, contabilidad, tributación y administración.",
+            "degree": "Título obtenido: Contadora Pública."
+        }
+    ],
+    "projects":[
+        {
+            "id": "1",
+            "image": "../assets/img/logoEC0.png",
+            "name": "Estudio Capobianco",
+            "url": "https://github.com/veritocapito/proyecto2",
+            "description": "Startup de Servicios Profesionales. Desarrollo FrontEnd. Tecnologias utilizadas: HTML - CSS - Javascritp - Angular."
+        },
+        {
+            "id": "2",
+            "image": "../assets/img/logoCNC.svg",
+            "name": "Clínica No Country",
+            "url": "https://github.com/No-Country/C8-12-JavaAngular",
+            "description": "Participe como desarrolladora FrontEnd para la implementación de un turnero de clinica medica.  Tecnologias utilizadas: HTML - CSS - Javascritp - Angular."
+        },
+        {
+            "id": "3",
+            "image": "../assets/img/menuResto.png",
+            "name": "Menu Resto Floresta",
+            "url": "https://github.com/veritocapito/proyectoMenu",
+            "description": "Desarrollo de Menu interactivo para Restaurant, implementando codigo de barras. Tecnologias utilizadas: HTML - CSS - Javascritp - Angular."
+        },
+        {
+            "id": "4",
+            "image": "../assets/img/logos.svg",
+            "name": "Sisters Talles Positivos",
+            "url": "https://github.com/veritocapito/sisters",
+            "description": "Participe en el desarrollo de Landing Page de tienda de ropa femenina. Tecnologias utilizadas: HTML - CSS - Javascritp - Angular."
+        }
+    ],
+    "experiences": [
+        {
+            "id": "1",
+            "image": "../assets/img/nocountry.png",
+            "company": "No Country",
+            "url": "https://www.nocountry.tech/",
+            "position": "FrontEnd Developer",
+            "start": "Noviembre 2022",
+            "end": "Diciembre 2022",
+            "description": "Participe en el equipo de desarrollo para la implementación de un turnero de clinica medica.  Tecnologias utilizadas: HTML - CSS - Javascritp - Angular."
+        },
+        {
+            "id": "2",
+            "image": "../assets/img/logoEC4.bmp",
+            "company": "Estudio Capobianco",
+            "url": "http://estudiocapobianco.com.ar/",
+            "position": "Contadora Pública",
+            "start": "Septiembre 2016",
+            "end": "Presente",
+            "description": "Socia fundadora en Estudio Capobianco. Especialista en liquidacion de haberes y cargas sociales. Leyes laborales. Asesoramiento integral en RRHH."
+        },
+        {
+            "id": "3",
+            "image": "../assets/img/blasco.png",
+            "company": "Estudio Blasco",
+            "url": "https://www.blasco.com.ar/",
+            "position": "Responsable RRHH",
+            "start": "Julio 2011",
+            "end": "Presente",
+            "description": "Encargada RRHH. Especialista en liquidacion de haberes y cargas sociales. Coordinacion de equipos de trabajo."
+        }
+    ],
+    "skills": [
+        "Resiliencia",
+        "Trabajo en Equipo",
+        "Compromiso",
+        "Capacitación",
+        "Comunicación",
+        "Organización",
+        "Proactividad",
+        "Flexibilidad",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GIT",
+        "Bootstrap",
+        "Angular",
+        "Python",
+        "MySQL"
+    ]
+}

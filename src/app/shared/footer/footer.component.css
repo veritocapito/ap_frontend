@@ -1,0 +1,35 @@
+#redes-footer a:hover {
+    color: #F15E26;
+}
+
+footer {
+    padding-top: 5rem;
+    background-color: rgb(33, 37, 41);
+    color: #F15E26;
+
+}
+
+footer h5 {
+    font-size: x-small;
+    padding-bottom: 1.5rem;
+    text-align: center;
+
+}
+
+#redes-footer a {
+    text-decoration: none;
+    color: #F15E26;
+}
+
+div #redes-footer {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10rem;
+
+}
+
+div #redes-footer>a:hover {
+    cursor: pointer;
+    color: antiquewhite;
+
+}
