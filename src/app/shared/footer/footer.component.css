@@ -24,8 +24,6 @@ footer h5 {
 div #redes-footer {
     display: flex;
     justify-content: space-around;
-    padding-right: 10rem;
-
 }
 
 div #redes-footer>a:hover {
