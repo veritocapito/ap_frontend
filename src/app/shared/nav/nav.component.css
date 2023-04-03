@@ -8,7 +8,7 @@
     color: white;
 }
 
-.navbar {
+.navbar-collapse {
     align-items: center;
     justify-content: space-around;
     width: 100vw;
@@ -18,7 +18,7 @@
 
 .redes a {
     text-decoration: none;
-    margin-right: 1rem;
+    margin: 0.5rem;
     color: #F15E26;
 }
 
@@ -27,7 +27,6 @@
 }
 
 div.redes>i.bi {
-    margin: 0.5rem 1rem;
     font-size: 1.5rem;
 }
 
@@ -38,5 +37,6 @@ div.redes>i.bi:hover {
 }
 
 ul{
+    margin: 0;
     list-style: none;
 }

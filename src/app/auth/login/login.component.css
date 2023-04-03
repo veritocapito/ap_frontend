@@ -1,0 +1,33 @@
+form{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.row{
+    align-content: center;
+    width: 40%;
+    justify-content: center;
+}
+
+img{
+    width: 50%;
+    display: block;
+    margin:auto;
+}
+
+button{
+    width: 50%;
+}
+
+footer{
+    padding-top: 1.9rem;
+    padding-bottom: 0.1rem;
+    text-align: center;
+    background-color: #212529
+}

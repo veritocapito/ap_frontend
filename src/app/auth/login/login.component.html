@@ -1,1 +1,36 @@
-<p>login works!</p>
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit($event)">
+    <div class="container">
+        <div class="row">
+
+            <div class="img-about">
+                <img src="../../../assets/img/perfil.jpg" alt="Foto de perfil">
+            </div>
+
+            <h2 class="text-center fs-3 mb-3">Iniciar Sesión</h2>
+
+            <div class="col-md-12 mb-3">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="email" formControlName="email" [class.border-danger]="MailValid" class="form-control"
+                    id="inputEmail">
+                <div *ngIf="Mail?.errors && Mail?.touched">
+                    <p *ngIf="Mail?.hasError('required')" class="error">El email es requerido.</p>
+                    <p *ngIf="Mail?.hasError('email')" class="error">El formato del email debe ser válido.</p>
+                </div>
+            </div>
+
+            <div class="col-md-12 mb-3">
+                <label for="inputPassword4" class="form-label">Contraseña</label>
+                <input type="password" formControlName="password" [class.border-danger]="PasswordValid"
+                    class="form-control" id="inputPassword">
+                <div *ngIf="Password?.errors && Password?.touched">
+                    <p *ngIf="Password?.hasError('required')" class="error">La contraseña es requerida.</p>
+                    <p *ngIf="Password?.errors?.['minlength']" class="error">La contraseña debe ser de 8 o más
+                        caracteres.</p>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-dark mt-4">Ingresar</button>
+
+        </div>
+    </div>
+</form>
