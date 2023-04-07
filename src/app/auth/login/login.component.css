@@ -1,33 +1,24 @@
 form{
     background-color: antiquewhite;
+    padding: 2rem;
 }
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 90vh;
-}
-
-.row{
-    align-content: center;
-    width: 40%;
-    justify-content: center;
+    flex-direction: column;
+    min-height: 60vh;
+    padding: 2rem;
 }
 
 img{
-    width: 50%;
+    width: 40%;
     display: block;
     margin:auto;
+    border-radius: 50%;
 }
 
 button{
-    width: 50%;
-}
-
-footer{
-    padding-top: 1.9rem;
-    padding-bottom: 0.1rem;
-    text-align: center;
-    background-color: #212529
+    width: 100%;
 }

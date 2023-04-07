@@ -1,8 +1,8 @@
 <form [formGroup]="loginForm" (ngSubmit)="onSubmit($event)">
+    <p class="text-danger">{{loginError}}</p>
     <div class="container">
-        <div class="row">
-
-            <div class="img-about">
+        <div class="col-md-6 col-sm-8 col-xs-6">
+            <div class="img-about mb-2">
                 <img src="../../../assets/img/perfil.jpg" alt="Foto de perfil">
             </div>
 
@@ -23,14 +23,13 @@
                 <input type="password" formControlName="password" [class.border-danger]="PasswordValid"
                     class="form-control" id="inputPassword">
                 <div *ngIf="Password?.errors && Password?.touched">
-                    <p *ngIf="Password?.hasError('required')" class="error">La contraseña es requerida.</p>
-                    <p *ngIf="Password?.errors?.['minlength']" class="error">La contraseña debe ser de 8 o más
-                        caracteres.</p>
-                </div>
+                    <p *ngIf="Password?.hasError('required')" class="error">La contraseña es requerida.</p>                </div>
             </div>
 
             <button type="submit" class="btn btn-dark mt-4">Ingresar</button>
-
         </div>
+
+
     </div>
+
 </form>
